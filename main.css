@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background: #ccc;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+header{
+    
+}
+.header-top{
+    background: #666;
+    padding: 30px 20px;
+}
+.menu{
+    background: lightslategrey;
+    margin: 0;padding: 0;
+    list-style: none;
+}
+.menu:after{
+    content: ' ';
+    display: block;
+    clear: both;
+}
+.menu li{
+  float: left;
+  padding: 15px;
+  border-right: 1px solid #333; 
+}
+.menu li a{
+    font-size: 16px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.content{
+    float: left;
+    width: 660px;
+    background: #fff;
+    padding: 20px;
+}
+.news-item{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px; 
+}
+.news-item::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.news-content{
+    float: left;
+    width: 400px;
+}
+.news-content h3 a{
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+}
+.news-content p{
+    font-size: 14px;
+    color: #a3a3a3;
+}
+.news-img{
+    float: left;
+    width: 200px;
+    height: 160px;
+    margin-right: 20px;
+    border: 1px solid;
+    max-width: 100%;
+}
+.news-content a{
+    font-size: 14px;
+    color: #f58220;
+}
+aside{
+    width: 300px;
+    float: left;
+    background: #e5e5e5;
+}
+.img-fluid{
+    max-width: 100%;
+}
+aside{
+    width: 300;
+    float: left;
+    background: #e5e5e5;
+}
+aside h2{
+    font-size: 18px;
+    color: #333;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+}
+
+
+
+.products-after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.product-item{
+    float: left;
+    width: 33.333333%;
+    border: 1px solid #000;
+    padding: 0 15px;
+}
+.product-img{
+    position: relative;
+    border: 1px solid;
+}    
+.wish-list{
+    position: absolute;
+    top: 10px ; right: 10px;
+}
+.products{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.product-inner{
+    border: 1px solid red;
+}
+
+
+
+.col-9{
+    width: 75%;
+}
+.col-6{background-position-x: 
+}
+.col-4{
+    width: 
+}
+.col-3{/
+
+}
+.div[class^="col-"]{
+    float: left;
+    padding left: ;
+}
+
+
+
+

@@ -1,0 +1,39 @@
+.header-top{
+    height: 100px;
+    background: #272154;
+    text-align: center;
+    
+}
+.header-top img{
+    height: 50px;
+    width: 250px;
+    margin-top: 20px;
+}
+.navbar navbar-expand-lg navbar-light bg-light{
+    background: #a03f00;
+}
+.banner img {
+    height: 250px;
+    width: 1110px;
+}
+h2{
+    font-size: 20px;
+padding: 10px 0px 10px 0px;
+
+}
+.card-title{
+    font-size: 16px;
+  color:   #a03f00;
+}
+.card-text{
+    font-size: 13px;
+    color: #000;
+}
+footer{
+    height: 50px;
+    background: #272154;
+}
+footer p{
+    text-align: center;
+    color: aliceblue;
+}

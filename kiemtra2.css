@@ -1,0 +1,31 @@
+.header-top{
+    background: #272154;
+    height: 100px;
+    text-align: center;
+}
+.banner img{
+    height: 250px;
+    width: 1110px;
+}
+.news{
+    border: 1px solid #000;
+    margin-top: 10px;
+    padding: 20px 20px 20px 20px;
+}
+.news2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.news2 .card{
+    padding: 20px 20px 20px 20px;
+}
+  
+
+footer{
+    background: #272154;
+    height: 50px;
+}
+footer p{
+    color: aliceblue;
+    text-align: center;
+}
